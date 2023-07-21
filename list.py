@@ -33,6 +33,13 @@ class List:
         for i in range(self.n):
             result = result+str(self.A[i])+','
         return '['+result[:-1]+']'
+    
+    def __getitem__(self,index):
+        if 0<=index<self.n:
+            return self.A[index]
+        else:
+            return 'Index error:Index out of range'
+    
 obj = List()
 print(obj) 
 obj.append('Neeraj')
@@ -40,4 +47,4 @@ obj.append('Raj')
 obj.append('Jai')
 obj.append('Rahul') 
 print(len(obj))
-print(obj)
+print(obj[1])
