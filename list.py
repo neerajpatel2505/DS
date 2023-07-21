@@ -47,6 +47,16 @@ class List:
         print(self.A[self.n-1])
         self.n = self.n-1
     
+    def clear(self):
+        self.size = 1
+        self.n = 0 
+    
+    def find(self,item):
+        for i in range(self.n):
+            if self.A[i]==item:
+                return i
+        return 'ValueError:Value not find'
+        
 obj = List()
 print(obj) 
 obj.append('Neeraj')
@@ -54,5 +64,5 @@ obj.append('Raj')
 obj.append('Jai')
 obj.append('Rahul') 
 print(len(obj))
-print(obj[1])
-obj.pop()
+print(obj)
+print(obj.find("aj"))
