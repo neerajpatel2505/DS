@@ -14,6 +14,23 @@ class List:
     def __len__(self):
         return self.n
     
+    def append(self,item):
+        if self.n == self.size:
+            self.__resize(self.size*2)
+        
+        self.A[self.n]= item
+        self.n += 1
+    
+    def __resize(self,new_capacity):
+        B=self.__make_array(new_capacity)
+        self.size = new_capacity
+        for i in range(self.n):
+            B[i] = self.A[i]
+        self.A=B 
 obj = List()
-print(obj)  
+print(obj) 
+obj.append('Neeraj')
+obj.append('Raj')
+obj.append('Jai')
+obj.append('Rahul') 
 print(len(obj))
