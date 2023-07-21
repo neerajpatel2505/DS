@@ -10,5 +10,10 @@ class List:
     def __make_array(self,capacity):
         return (capacity*ctypes.py_object)()      
     
+    # Creating len function
+    def __len__(self):
+        return self.n
+    
 obj = List()
 print(obj)  
+print(len(obj))
