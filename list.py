@@ -40,6 +40,13 @@ class List:
         else:
             return 'Index error:Index out of range'
     
+    def pop(self):
+        if self.n==0:
+            return "Empty list"
+        
+        print(self.A[self.n-1])
+        self.n = self.n-1
+    
 obj = List()
 print(obj) 
 obj.append('Neeraj')
@@ -48,3 +55,4 @@ obj.append('Jai')
 obj.append('Rahul') 
 print(len(obj))
 print(obj[1])
+obj.pop()
