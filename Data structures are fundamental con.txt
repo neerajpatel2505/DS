@@ -1,0 +1,26 @@
+Data structures are fundamental concepts of computer science which helps is writing efficient programs in any language.Data structures deal with how the data is organized and held in the memory, when a program processes it.
+
+An Algorithm is a step-by-step set of instructions to process the data for a specific purpose. So, an algorithm utilizes various data structures in a logical way to solve a specific computing problem.
+
+General Data Structures:-
+1. Liner Data Structures
+	1. Array:- It is a sequential arrangement of data elements paired with 			   the index of the data element.
+	2. Linked List:-  Each data element contains a link to another element 				  along with the data present in it.
+	3. Stack:- It is a data structure that follows only to a specific order of 		   operation. LIFO(last in First Out) or FILO(First in Last Out).
+	4. Queue:- It is similar to Stack but the order of operation is only 			   FIFO(First In First Out).
+	5. Matrix:- It is two-dimensional data structure in which the data                		    element is referred to by a pair of indices. 
+2. Non-Liner Data Structures
+	1. Binary Tree:- It is a data structure where each data element can be connected to maximum of two other data elements and it starts with a root node.
+	2. Heap:- It is a special case of Tree data structure where the data in the parent node is either strictly greater than/ equal to the child nodes or strictly less than it's child nodes.
+	3. Hash Table:- It is a data structure that is made of arrays associated with each other using a hash function. It retrieves values using keys rather than an index from a data element.
+	4. Graph:- It is an arrangement of vertices and nodes where some of the nodes are connected to each other through links.
+
+
+Python Specific Data Structures
+These data structures are specific to python language and they give greater flexibility in storing different types of data and faster processing in python environment.
+
+List − It is similar to array with the exception that the data elements can be of different data types. You can have both numeric and string data in a python list.
+
+Tuple − Tuples are similar to lists but they are immutable which means the values in a tuple cannot be modified they can only be read.
+
+Dictionary − The dictionary contains Key-value pairs as its data elements.
