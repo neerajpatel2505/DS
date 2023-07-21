@@ -65,6 +65,15 @@ class List:
             self.A[i] = self.A[i-1]
         self.A[pos] = item
         self.n = self.n + 1
+        
+        
+    def __delitem__(self,pos):
+    # delete pos wala item
+        if 0<= pos < self.n:
+            for i in range(pos,self.n-1):
+                self.A[i] = self.A[i+1]
+
+            self.n = self.n - 1
 obj = List()
 print(obj) 
 obj.append('Neeraj')
