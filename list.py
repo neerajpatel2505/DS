@@ -38,7 +38,7 @@ class List:
         if 0<=index<self.n:
             return self.A[index]
         else:
-            return 'Index error:Index out of range'
+            return 'Index error:Index out of range..........'
     
     def pop(self):
         if self.n==0:
