@@ -19,7 +19,7 @@ General Data Structures:-
 Python Specific Data Structures
 These data structures are specific to python language and they give greater flexibility in storing different types of data and faster processing in python environment.
 
-List − It is similar to array with the exception that the data elements can be of different data types. You can have both numeric and string data in a python list.
+List  − It is similar to array with the exception that the data elements can be of different data types. You can have both numeric and string data in a python list.
 
 Tuple − Tuples are similar to lists but they are immutable which means the values in a tuple cannot be modified they can only be read.
 
