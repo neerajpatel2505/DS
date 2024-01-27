@@ -28,7 +28,7 @@ class List:
             B[i] = self.A[i]
         self.A=B 
         
-    def __str__(self):
+    def __str__(self): 
         result = ''
         for i in range(self.n):
             result = result+str(self.A[i])+','
@@ -82,4 +82,5 @@ obj.append('Jai')
 obj.append('Rahul') 
 print(len(obj))
 print(obj)
-print(obj.find("aj"))
+print(obj.find("aj")) 
+#(abhishek)
