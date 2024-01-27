@@ -77,7 +77,7 @@ class List:
 obj = List()
 print(obj) 
 obj.append('Neeraj')
-obj.append('Raj')
+obj.append('suraj')
 obj.append('Jai')
 obj.append('Rahul') 
 print(len(obj))
