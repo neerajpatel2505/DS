@@ -1,6 +1,10 @@
 # Create a new list and their functionality with the help of ctype.
 import ctypes
 
+
+#ebbeheeubeubeub
+
+
 class List:
     def __init__(self):
         self.size = 1
