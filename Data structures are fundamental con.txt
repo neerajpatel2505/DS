@@ -4,7 +4,7 @@ An Algorithm is a step-by-step set of instructions to process the data for a spe
 
 General Data Structures:-
 1. Liner Data Structures
-	1. Array:- It is a sequential arrangement of data elements paired with 			   the index of the data element.
+	1. Array:- It is a sequentialN BRAJESH arrangement of data elements paired with 			   the index of the data element.
 	2. Linked List:-  Each data element contains a link to another element 				  along with the data present in it.
 	3. Stack:- It is a data structure that follows only to a specific order of 		   operation. LIFO(last in First Out) or FILO(First in Last Out).
 	4. Queue:- It is similar to Stack but the order of operation is only 			   FIFO(First In First Out).
