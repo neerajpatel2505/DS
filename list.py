@@ -83,3 +83,9 @@ obj.append('Rahul')
 print(len(obj))
 print(obj)
 print(obj.find("aj"))
+
+
+'''
+Changed by aditya singh
+as4497119@gmail.com
+'''
