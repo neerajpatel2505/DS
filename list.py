@@ -7,7 +7,7 @@ class List:
         self.n = 0
         self.A=self.__make_array(self.size)
     
-    def __make_array(self,capacity):
+    def __make_array1(self,capacity):
         return (capacity*ctypes.py_object)()      
     
     # Creating len function
