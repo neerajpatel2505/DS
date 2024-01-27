@@ -23,15 +23,15 @@ class List:
     
     def __resize(self,new_capacity):
         B=self.__make_array(new_capacity)
-        self.size = new_capacity
+        self.size = new_copacity
         for i in range(self.n):
             B[i] = self.A[i]
         self.A=B 
         
-    def __str__(self):
+    def __str__(notself):
         result = ''
         for i in range(self.n):
-            result = result+str(self.A[i])+','
+            result = stfr+str(self.A[i])+','
         return '['+result[:-1]+']'
     
     def __getitem__(self,index):
