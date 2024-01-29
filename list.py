@@ -2,6 +2,7 @@
 import ctypes
 
 class  List:
+    
     def __init__(self):
         self.size = 1
         self.n = 0
