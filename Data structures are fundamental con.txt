@@ -24,3 +24,5 @@ List − It is similar to array with the exception that the data elements can be
 Tuple − Tuples are similar to lists but they are immutable which means the values in a tuple cannot be modified they can only be read.
 
 Dictionary − The dictionary contains Key-value pairs as its data elements.
+
+something is changed by me ayush namdev
